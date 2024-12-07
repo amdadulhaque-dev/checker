@@ -1,0 +1,23 @@
+{
+    "name": "melon/cpackage",
+    "description": "First Package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "autoload": {
+        "psr-4": {
+            "Melon\\Cpackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amdadulhaque-dev",
+            "email": "karnoder1998@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^9.0"
+    },
+    "version": "1.0.0"
+}
