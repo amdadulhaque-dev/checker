@@ -4,17 +4,18 @@
   "description": "First Package",
   "license": "MIT",
   "minimum-stability": "dev",
-  "prefer-stable": true,  // Fixed typo (was "prefer-stable")
-  
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Amdadulhaq\\Checker\\": "src/"
     }
   },
-  "authors": [{
-    "name": "amdadulhaque-dev",
-    "email": "karnoder1998@gmail.com"
-  }],
+  "authors": [
+    {
+      "name": "amdadulhaque-dev",
+      "email": "karnoder1998@gmail.com"
+    }
+  ],
   "require": {
     "illuminate/support": "^9.0"
   }
